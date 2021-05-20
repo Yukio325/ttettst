@@ -63,57 +63,20 @@ Ocorre ao **"Segurar"** um dos eixos e provocar uma **"torção"** nele de modo 
 Sentidos Positivo (*Anti-horário*) e Negativo (*Horário*).
 
 Após a rotação obtemos que:
-$$x'=\begin{bmatrix}
-cos(θ)\\
-sen(θ)\\
-\end{bmatrix},\space\space
-y'=\begin{bmatrix}
--sen(θ)\\
-cos(θ)\\
-\end{bmatrix}\space e\space\space z' = z$$
+
+![equation](https://latex.codecogs.com/gif.latex?x%27%3D%5Cbegin%7Bbmatrix%7D%20cos%28%5Ctheta%29%5C%5C%20sen%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D%2C%20%5C%20y%27%3D%5Cbegin%7Bbmatrix%7D%20-sen%28%5Ctheta%29%5C%5C%20cos%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D%20e%20%5C%20z%27%20%3D%20z)
 #### Matriz de rotação do eixo z:
-$$R_z(θ) = \begin{bmatrix}
-cos(θ) & -sen(θ)\\
-sen(θ) & cos(θ)\\
-\end{bmatrix}$$
+
+![equation](https://latex.codecogs.com/gif.latex?R_z%28%5Ctheta%29%20%3D%20%5Cbegin%7Bbmatrix%7D%20cos%28%5Ctheta%29%20%26%20-sen%28%5Ctheta%29%5C%5C%20sen%28%5Ctheta%29%20%26%20cos%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D)
 ou
-$$\begin{bmatrix}
-x_1\\ y_1\\ z_1\\ 1\\
-\end{bmatrix} = \begin{bmatrix}
-cos\gamma & -sen\gamma & 0 & 0\\
-sen\gamma & cos\gamma & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & 1\\
-\end{bmatrix}\cdot
-\begin{bmatrix}
-x_0\\ y_0\\ z_0\\ 1\\
-\end{bmatrix}$$
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%20cos%5Cgamma%20%26%20-sen%5Cgamma%20%26%200%20%26%200%5C%5C%20sen%5Cgamma%20%26%20cos%5Cgamma%20%26%200%20%26%200%5C%5C%200%20%26%200%20%26%201%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 #### Matriz de rotação do eixo x:
-$$\begin{bmatrix}
-x_1\\ y_1\\ z_1\\ 1\\
-\end{bmatrix} =
-\begin{bmatrix}
-1 & 0 & 0 & 0\\
-0 & \cos\alpha & - \sin\alpha & 0\\
-0 & \sin\alpha & \cos\alpha & 0\\
-0 & 0 & 0 & 1\\
-\end{bmatrix}\cdot
-\begin{bmatrix}
-x_0\\ y_0\\ z_0\\ 1\\
-\end{bmatrix}$$
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%200%20%26%200%5C%5C%200%20%26%20%5Ccos%5Calpha%20%26%20-%20%5Csin%5Calpha%20%26%200%5C%5C%200%20%26%20%5Csin%5Calpha%20%26%20%5Ccos%5Calpha%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 #### Matriz de rotação do eixo y:
 
-$$\begin{bmatrix}
-x_1\\ y_1\\ z_1\\ 1\\
-\end{bmatrix} = \begin{bmatrix}
-\cos\beta & 0 & \sin\beta & 0\\
-0 & 1 & 0 & 0\\
--\sin\beta & 0 & \cos\beta & 0\\
-0 & 0 & 0 & 1\\
-\end{bmatrix}\cdot
-\begin{bmatrix}
-x_0\\ y_0\\ z_0\\ 1\\
-\end{bmatrix}$$
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%20%5Ccos%5Cbeta%20%26%200%20%26%20%5Csin%5Cbeta%20%26%200%5C%5C%200%20%26%201%20%26%200%20%26%200%5C%5C%20-%5Csin%5Cbeta%20%26%200%20%26%20%5Ccos%5Cbeta%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 # Aula 2
 ## Tipos de robôs
 - Modelo de Ackerman
@@ -128,9 +91,9 @@ Sua posição é definida pelas coordenadas nos eixos x e y.
 
 É importante definir sua orientação! (Relativa ao seu frame inercial).
 ### Parâmetros do robô
-- Velocidades angulares das duas rodas ($w_l, w_r$) ;
-- Distância entre as rodas e o eixo ($L$);
-- O raio da roda ($r$);
+- Velocidades angulares das duas rodas (wl, wr) ;
+- Distância entre as rodas e o eixo (L);
+- O raio da roda (r);
 
 O robô será representado como um único ponto (corpo rígido) que, para facilitar, será coincidente com o ponto médio do eixo das rodas.
 
@@ -140,15 +103,17 @@ Por convenção, definimos os eixos x e z, respectivamente, alinhados com a fren
 Deslocamentos Translacional e Rotacional que resultam, respectivamente, nas velocidades **linear** (alocado ao eixo x do robô)
 e **angular** (realizada unicamente pelo eixo z, que permanece estático durante a rotação).
 
-Ambas as velocidades são relacionadas entre si pela expressão:   $\space v = R\cdot w$
+Ambas as velocidades são relacionadas entre si pela expressão:   ![equation](https://latex.codecogs.com/gif.latex?%5Cspace%20v%20%3D%20R%5Ccdot%20w)
 
 A velocidade linear do robô, isoladamente, ocorrerá quando as velocidades de ambas as rodas forem iguais.
 
 Já a velocidade angular do robô, ocorrerá quando as velocidades das rodas forem diferentes.
 
-Por sua vez, a velocidade do ponto médio será a média aritmética da velocidade das rodas: $$v = \dfrac{r}{2}\cdot(w_r+w_l)$$
-E a velocidade angular do ponto médio se dá pela relação: $$w = \dfrac r{2\cdot L}\cdot(w_r-w_l)$$
+Por sua vez, a velocidade do ponto médio será a média aritmética da velocidade das rodas: 
+![equation](https://latex.codecogs.com/gif.latex?v%20%3D%20%5Cdfrac%7Br%7D%7B2%7D%5Ccdot%28w_r&plus;w_l%29)
 
+E a velocidade angular do ponto médio se dá pela relação:
+![equation](https://latex.codecogs.com/gif.latex?w%20%3D%20%5Cdfrac%20r%7B2%5Ccdot%20L%7D%5Ccdot%28w_r-w_l%29)
 ### Estratégias de controle
 1. **Planejar primeiro as velocidades independentes das rodas e depois combiná-las para obter as velocidades do robô.**
 2. **Planejar as velocidades do robô logo de início, e depois convertê-la para as rodas de forma que o motor aja de acordo.**
@@ -156,30 +121,13 @@ E a velocidade angular do ponto médio se dá pela relação: $$w = \dfrac r{2\c
 ### Conversão de velocidades para o frame inercial/global
 Esse processo ocorre por meio da decomposição vetorial do frame do robô em relação ao frame inercial, de acordo com sua orientação (θ),
 ou seja:
-$$\begin{bmatrix}
-vx\\ vy\\ w\\
-\end{bmatrix}=
-\begin{bmatrix}
-v\cdot\cos\theta\\ v\cdot\sin\theta\\ w\\
-\end{bmatrix}$$	
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bbmatrix%7D%20vx%5C%5C%20vy%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D%3D%20%5Cbegin%7Bbmatrix%7D%20v%5Ccdot%5Ccos%5Ctheta%5C%5C%20v%5Ccdot%5Csin%5Ctheta%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D)
 Observe que a velocidade angular permanece a mesma, uma vez que o eixo z do robô sempre está alinhado com o eixo z inercial.
 
 Reescrevendo as equações, temos:
-$$V=P'=\begin{bmatrix}
-\dot{X}_i \\ \dot{Y}_i \\ \dot{\theta}_i \\
-\end{bmatrix}=
-\begin{bmatrix}
-\cos\theta_i & 0\\ \sin\theta_i & 0\\ 0 & 1\\
-\end{bmatrix}\cdot
-\begin{bmatrix}
-v\\ w\\
-\end{bmatrix}$$
+![equation](https://latex.codecogs.com/gif.latex?V%3D%5Cdot%7BP%7D%3D%5Cbegin%7Bbmatrix%7D%20%5Cdot%7BX%7D_i%20%5C%5C%20%5Cdot%7BY%7D_i%20%5C%5C%20%5Cdot%7B%5Ctheta%7D_i%20%5C%5C%20%5Cend%7Bbmatrix%7D%3D%20%5Cbegin%7Bbmatrix%7D%20%5Ccos%5Ctheta_i%20%26%200%5C%5C%20%5Csin%5Ctheta_i%20%26%200%5C%5C%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20v%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D)
 ### Obtendo a posição a partir da velocidade
 Decompondo as velocidades do frame inicial, temos:
-$$V_t=\dot{P}_t=\begin{bmatrix}
-V_{x,t}\\ V_{y,t}\\ w_t\\
-\end{bmatrix}=\begin{bmatrix}
-v\cdot\cos\theta_{t-1}\\ v\cdot\sin\theta_{t-1}\\ w_t\\
-\end{bmatrix}$$
+![equation](https://latex.codecogs.com/gif.latex?V_t%3D%5Cdot%7BP%7D_t%3D%5Cbegin%7Bbmatrix%7D%20V_%7Bx%2Ct%7D%5C%5C%20V_%7By%2Ct%7D%5C%5C%20w_t%5C%5C%20%5Cend%7Bbmatrix%7D%3D%5Cbegin%7Bbmatrix%7D%20v%5Ccdot%5Ccos%5Ctheta_%7Bt-1%7D%5C%5C%20v%5Ccdot%5Csin%5Ctheta_%7Bt-1%7D%5C%5C%20w_t%5C%5C%20%5Cend%7Bbmatrix%7D)
 E então é feita a integração (soma) de cada componente no robô:
-$$P_t=P{t-1}+\dot{P}_t\times dt$$
+![equation](https://latex.codecogs.com/gif.latex?P_t%3DP_%7Bt-1%7D&plus;%5Cdot%7BP%7D_t%5Ctimes%20dt)
