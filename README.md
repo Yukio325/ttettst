@@ -46,6 +46,7 @@ Deslocamento de um frame pelo espaço sem que ocorra a alteração da orientaç�
 
 #### Aplicação de matrizes na robótica:
 **Sistema matricial**:
+
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%20dx%5C%5C%200%20%26%201%20%26%20dy%5C%5C%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 #### Rotação
 Operações matemáticas de mudança de orientação nos eixos cartesianos do sistema de referência sem mudar
