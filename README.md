@@ -139,4 +139,4 @@ Decompondo as velocidades do frame inicial, temos:
 
 E então é feita a integração (soma) de cada componente no robô:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20P_t%3DP_%7Bt-1%7D&plus;%5Cdot%7BP%7D_t%5Ctimes%20dt)
+![equation](https://latex.codecogs.com/gif.latex?%5Cboxed%7BP_t%3DP_%7Bt-1%7D&plus;%5Cdot%7BP%7D_t%5Ctimes%20dt%7D)
