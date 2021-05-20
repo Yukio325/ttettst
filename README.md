@@ -34,6 +34,7 @@ Unimate.
 ## Aula 1
 ### Sistemas de coordenadas (referencial)
 **Frame:** ``sistema de coordenadas geométricas usadas como referência.``
+
 **Regra da mão direita:**``indica um plano tridimensional (três frames).``
 
 É o movimento de sistemas de coordenadas através do espaço, já que os objetos serão generalizados por um sistema de coordenadas.
@@ -45,13 +46,7 @@ Deslocamento de um frame pelo espaço sem que ocorra a alteração da orientaç�
 
 #### Aplicação de matrizes na robótica:
 **Sistema matricial**:
-$$\begin{bmatrix}
-x_1\\ y_1\\ 1\\
-\end{bmatrix}=\begin{bmatrix}
-1 & 0 & dx\\ 0 & 1 & dy\\ 0 & 0 & 1\\
-\end{bmatrix}\cdot\begin{bmatrix}
-x_0\\ y_0\\ 1\\
-\end{bmatrix}$$
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%20dx%5C%5C%200%20%26%201%20%26%20dy%5C%5C%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 #### Rotação
 Operações matemáticas de mudança de orientação nos eixos cartesianos do sistema de referência sem mudar
 a posição do eixo de referência.
