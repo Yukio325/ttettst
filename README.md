@@ -47,7 +47,7 @@ Deslocamento de um frame pelo espaço sem que ocorra a alteração da orientaç�
 #### Aplicação de matrizes na robótica:
 **Sistema matricial**:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%20dx%5C%5C%200%20%26%201%20%26%20dy%5C%5C%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%20dx%5C%5C%200%20%26%201%20%26%20dy%5C%5C%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 #### Rotação
 Operações matemáticas de mudança de orientação nos eixos cartesianos do sistema de referência sem mudar
 a posição do eixo de referência.
@@ -64,20 +64,20 @@ Sentidos Positivo (*Anti-horário*) e Negativo (*Horário*).
 
 Após a rotação obtemos que:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20x%27%3D%5Cbegin%7Bbmatrix%7D%20cos%28%5Ctheta%29%5C%5C%20sen%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D%2C%20%5C%20y%27%3D%5Cbegin%7Bbmatrix%7D%20-sen%28%5Ctheta%29%5C%5C%20cos%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D%20e%20%5C%20z%27%20%3D%20z)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20x%27%3D%5Cbegin%7Bbmatrix%7D%20cos%28%5Ctheta%29%5C%5C%20sen%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D%2C%20%5C%20y%27%3D%5Cbegin%7Bbmatrix%7D%20-sen%28%5Ctheta%29%5C%5C%20cos%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D%20e%20%5C%20z%27%20%3D%20z)
 #### Matriz de rotação do eixo z:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20R_z%28%5Ctheta%29%20%3D%20%5Cbegin%7Bbmatrix%7D%20cos%28%5Ctheta%29%20%26%20-sen%28%5Ctheta%29%5C%5C%20sen%28%5Ctheta%29%20%26%20cos%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20R_z%28%5Ctheta%29%20%3D%20%5Cbegin%7Bbmatrix%7D%20cos%28%5Ctheta%29%20%26%20-sen%28%5Ctheta%29%5C%5C%20sen%28%5Ctheta%29%20%26%20cos%28%5Ctheta%29%5C%5C%20%5Cend%7Bbmatrix%7D)
 
 ou
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%20cos%5Cgamma%20%26%20-sen%5Cgamma%20%26%200%20%26%200%5C%5C%20sen%5Cgamma%20%26%20cos%5Cgamma%20%26%200%20%26%200%5C%5C%200%20%26%200%20%26%201%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%20cos%5Cgamma%20%26%20-sen%5Cgamma%20%26%200%20%26%200%5C%5C%20sen%5Cgamma%20%26%20cos%5Cgamma%20%26%200%20%26%200%5C%5C%200%20%26%200%20%26%201%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 #### Matriz de rotação do eixo x:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%200%20%26%200%5C%5C%200%20%26%20%5Ccos%5Calpha%20%26%20-%20%5Csin%5Calpha%20%26%200%5C%5C%200%20%26%20%5Csin%5Calpha%20%26%20%5Ccos%5Calpha%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%200%20%26%200%5C%5C%200%20%26%20%5Ccos%5Calpha%20%26%20-%20%5Csin%5Calpha%20%26%200%5C%5C%200%20%26%20%5Csin%5Calpha%20%26%20%5Ccos%5Calpha%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 #### Matriz de rotação do eixo y:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%20%5Ccos%5Cbeta%20%26%200%20%26%20%5Csin%5Cbeta%20%26%200%5C%5C%200%20%26%201%20%26%200%20%26%200%5C%5C%20-%5Csin%5Cbeta%20%26%200%20%26%20%5Ccos%5Cbeta%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Cbegin%7Bbmatrix%7D%20x_1%5C%5C%20y_1%5C%5C%20z_1%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%20%5Ccos%5Cbeta%20%26%200%20%26%20%5Csin%5Cbeta%20%26%200%5C%5C%200%20%26%201%20%26%200%20%26%200%5C%5C%20-%5Csin%5Cbeta%20%26%200%20%26%20%5Ccos%5Cbeta%20%26%200%5C%5C%200%20%26%200%20%26%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20x_0%5C%5C%20y_0%5C%5C%20z_0%5C%5C%201%5C%5C%20%5Cend%7Bbmatrix%7D)
 # Aula 2
 ## Tipos de robôs
 - Modelo de Ackerman
@@ -104,7 +104,7 @@ Por convenção, definimos os eixos x e z, respectivamente, alinhados com a fren
 Deslocamentos Translacional e Rotacional que resultam, respectivamente, nas velocidades **linear** (alocado ao eixo x do robô)
 e **angular** (realizada unicamente pelo eixo z, que permanece estático durante a rotação).
 
-Ambas as velocidades são relacionadas entre si pela expressão:   ![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20%5Cspace%20v%20%3D%20R%5Ccdot%20w)
+Ambas as velocidades são relacionadas entre si pela expressão:   ![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Cspace%20v%20%3D%20R%5Ccdot%20w)
 
 A velocidade linear do robô, isoladamente, ocorrerá quando as velocidades de ambas as rodas forem iguais.
 
@@ -112,11 +112,11 @@ Já a velocidade angular do robô, ocorrerá quando as velocidades das rodas for
 
 Por sua vez, a velocidade do ponto médio será a média aritmética da velocidade das rodas:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20v%20%3D%20%5Cdfrac%7Br%7D%7B2%7D%5Ccdot%28w_r&plus;w_l%29)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20v%20%3D%20%5Cdfrac%7Br%7D%7B2%7D%5Ccdot%28w_r&plus;w_l%29)
 
 E a velocidade angular do ponto médio se dá pela relação:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20w%20%3D%20%5Cdfrac%20r%7B2%5Ccdot%20L%7D%5Ccdot%28w_r-w_l%29)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20w%20%3D%20%5Cdfrac%20r%7B2%5Ccdot%20L%7D%5Ccdot%28w_r-w_l%29)
 ### Estratégias de controle
 1. **Planejar primeiro as velocidades independentes das rodas e depois combiná-las para obter as velocidades do robô.**
 2. **Planejar as velocidades do robô logo de início, e depois convertê-la para as rodas de forma que o motor aja de acordo.**
@@ -125,17 +125,17 @@ E a velocidade angular do ponto médio se dá pela relação:
 Esse processo ocorre por meio da decomposição vetorial do frame do robô em relação ao frame inercial, de acordo com sua orientação (θ),
 ou seja:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20%5Cbegin%7Bbmatrix%7D%20vx%5C%5C%20vy%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D%3D%20%5Cbegin%7Bbmatrix%7D%20v%5Ccdot%5Ccos%5Ctheta%5C%5C%20v%5Ccdot%5Csin%5Ctheta%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Cbegin%7Bbmatrix%7D%20vx%5C%5C%20vy%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D%3D%20%5Cbegin%7Bbmatrix%7D%20v%5Ccdot%5Ccos%5Ctheta%5C%5C%20v%5Ccdot%5Csin%5Ctheta%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D)
 
 Observe que a velocidade angular permanece a mesma, uma vez que o eixo z do robô sempre está alinhado com o eixo z inercial.
 
 Reescrevendo as equações, temos:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20V%3D%5Cdot%7BP%7D%3D%5Cbegin%7Bbmatrix%7D%20%5Cdot%7BX%7D_i%20%5C%5C%20%5Cdot%7BY%7D_i%20%5C%5C%20%5Cdot%7B%5Ctheta%7D_i%20%5C%5C%20%5Cend%7Bbmatrix%7D%3D%20%5Cbegin%7Bbmatrix%7D%20%5Ccos%5Ctheta_i%20%26%200%5C%5C%20%5Csin%5Ctheta_i%20%26%200%5C%5C%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20v%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20V%3D%5Cdot%7BP%7D%3D%5Cbegin%7Bbmatrix%7D%20%5Cdot%7BX%7D_i%20%5C%5C%20%5Cdot%7BY%7D_i%20%5C%5C%20%5Cdot%7B%5Ctheta%7D_i%20%5C%5C%20%5Cend%7Bbmatrix%7D%3D%20%5Cbegin%7Bbmatrix%7D%20%5Ccos%5Ctheta_i%20%26%200%5C%5C%20%5Csin%5Ctheta_i%20%26%200%5C%5C%200%20%26%201%5C%5C%20%5Cend%7Bbmatrix%7D%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20v%5C%5C%20w%5C%5C%20%5Cend%7Bbmatrix%7D)
 ### Obtendo a posição a partir da velocidade
 Decompondo as velocidades do frame inicial, temos:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Ccolor%7BCyan%7D%20V_t%3D%5Cdot%7BP%7D_t%3D%5Cbegin%7Bbmatrix%7D%20V_%7Bx%2Ct%7D%5C%5C%20V_%7By%2Ct%7D%5C%5C%20w_t%5C%5C%20%5Cend%7Bbmatrix%7D%3D%5Cbegin%7Bbmatrix%7D%20v%5Ccdot%5Ccos%5Ctheta_%7Bt-1%7D%5C%5C%20v%5Ccdot%5Csin%5Ctheta_%7Bt-1%7D%5C%5C%20w_t%5C%5C%20%5Cend%7Bbmatrix%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbg_white%20V_t%3D%5Cdot%7BP%7D_t%3D%5Cbegin%7Bbmatrix%7D%20V_%7Bx%2Ct%7D%5C%5C%20V_%7By%2Ct%7D%5C%5C%20w_t%5C%5C%20%5Cend%7Bbmatrix%7D%3D%5Cbegin%7Bbmatrix%7D%20v%5Ccdot%5Ccos%5Ctheta_%7Bt-1%7D%5C%5C%20v%5Ccdot%5Csin%5Ctheta_%7Bt-1%7D%5C%5C%20w_t%5C%5C%20%5Cend%7Bbmatrix%7D)
 
 E então é feita a integração (soma) de cada componente no robô:
 
